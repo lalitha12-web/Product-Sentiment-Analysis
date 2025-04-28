@@ -5,6 +5,7 @@ import nltk
 import spacy
 import pickle as pk
 import os
+import sklearn
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
