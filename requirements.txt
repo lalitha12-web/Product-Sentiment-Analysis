@@ -1,13 +1,13 @@
 numpy
 pandas
-scikit-learn
-matplotlib
-seaborn
-tensorflow
-xgboost
+# scikit-learn
+# matplotlib
+# seaborn
+# tensorflow
+# xgboost
 nltk
-wordcloud
-imblearn
+# wordcloud
+# imblearn
 spacy
 flask
 gunicorn
