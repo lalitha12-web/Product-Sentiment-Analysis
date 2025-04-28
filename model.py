@@ -41,7 +41,8 @@ with open(os.path.join(pickle_dir, 'user_final_rating.pkl'), 'rb') as f:
     recommend_matrix = pk.load(f)
 
 # === Load Dataset ===
-product_df = pd.read_csv(r'/Users/lalitha/Downloads/sentimental_analysis/sample30.csv', sep=",")
+dataset_path = os.path.join("dataset","sample30.csv")
+product_df = pd.read_csv(dataset_path)
 
 # === Text Cleaning Pipeline ===
 stopword_list = set(stopwords.words('english'))
