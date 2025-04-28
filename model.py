@@ -9,7 +9,7 @@ import os
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+# from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
 import nltk
 nltk.download('punkt_tab')
